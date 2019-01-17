@@ -1,0 +1,59 @@
+.flex-container{
+    border: 2px solid salmon;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 
+#carouselExampleControls{
+    max-width: 100vw;
+    max-height: 800px;
+    padding: 0;
+}
+#carouselExampleControls img{
+    max-height: 800px;
+    background-size: cover;
+}
+#resumeButton{
+    width: 50vw;
+    height: 300px;
+    display:block;
+    top: 0;
+    float: right;
+    margin: auto 0;
+    padding: 0;
+}
+#resumeButton img{
+    width: 50vw;
+    height: 300px;
+    background-size: cover;
+    padding: 0;
+    float: right;
+}
+#contactButton{
+    width: 40vw;
+    height: 300px;
+    top: 0;
+    float: left;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+}
+#contactButton img{
+    width: 50vw;
+    height: 300px;
+    background-size: cover;
+    float: left;
+}
+#otherEducation{
+    z-index: -1;
+    width: 100vw;
+    height: 300px;
+    border: 5px solid salmon;
+}
+#otherEducation p{
+    color: white;
+} */

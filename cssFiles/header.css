@@ -7,3 +7,19 @@
     background-position: bottom;
     height: 60vh;
 }
+
+#quoteBlurb{
+    height: 300px;
+    width: 100vw;
+    text-align: center;
+    transform: translateY(30%);
+
+
+
+}
+#quoteBlurb h2{
+    color: white;
+}
+#quoteBlurb p{
+    color: white;
+}
