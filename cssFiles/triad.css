@@ -1,20 +1,10 @@
-/* .flex-container{
-    border: 2px solid salmon;
-    height: 800px;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-} */
 
+ /* Set up the image columns */
 .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
 }
-
-/* Create four equal columns that sits next to each other */
 
 .column {
     flex: 25%;
@@ -27,8 +17,7 @@
     vertical-align: middle;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-
+ /* Reponsive layout */
 @media (max-width: 800px) {
     .column {
         flex: 50%;
@@ -36,7 +25,6 @@
     }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 
 @media (max-width: 600px) {
     .column {
@@ -44,6 +32,7 @@
         max-width: 100%;
     }
 }
+ /* Hover effects */
 .fbPix:hover{
 opacity: 0.3;
 }
@@ -55,54 +44,3 @@ opacity: 0.3;
     #quoteZone {
         color: white;
     }
-
-
-/* 
-#carouselExampleControls{
-    max-width: 100vw;
-    max-height: 800px;
-    padding: 0;
-}
-#carouselExampleControls img{
-    max-height: 800px;
-    background-size: cover;
-}
-#resumeButton{
-    width: 50vw;
-    height: 300px;
-    display:block;
-    top: 0;
-    float: right;
-    margin: auto 0;
-    padding: 0;
-}
-#resumeButton img{
-    width: 50vw;
-    height: 300px;
-    background-size: cover;
-    padding: 0;
-    float: right;
-}
-#contactButton{
-    width: 40vw;
-    height: 300px;
-    top: 0;
-    float: left;
-    margin: 0 auto;
-    padding: 0px 0px 0px 0px;
-}
-#contactButton img{
-    width: 50vw;
-    height: 300px;
-    background-size: cover;
-    float: left;
-}
-#otherEducation{
-    z-index: -1;
-    width: 100vw;
-    height: 300px;
-    border: 5px solid salmon;
-}
-#otherEducation p{
-    color: white;
-} */
