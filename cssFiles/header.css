@@ -1,11 +1,20 @@
 /*header stuff*/
 #header {
-    background-color:#b19cd9;
-    color: black;
+    background-color:#A883AF;
+    background-image: url("../assets/purplerosecropthree.jpg");
+    object-fit: cover;
+    color: WHITE;
+    text-shadow: 3px 3px black;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom;
     height: 60vh;
+}
+#header h1{
+    font-weight: bold;
+}
+#header p{
+    font-weight:bold;
 }
 
 #quoteBlurb{
