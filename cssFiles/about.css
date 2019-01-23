@@ -1,0 +1,15 @@
+#About{
+    display:flex;
+    flex-wrap: wrap;
+    color: white;
+    padding-left: 15px;
+    padding-right: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#aboutText{
+    min-height: 200px;
+    transform:translateY(25%);
+}
