@@ -11,5 +11,15 @@
 
 #aboutText{
     min-height: 200px;
-    transform:translateY(25%);
+    transform:translateY(20%);
+}
+
+#aboutText a{
+    color: #A883AF;
+}
+#aboutText a:visited{
+    color: #865E92;
+}
+#aboutText a:hover{
+    color:white;
 }

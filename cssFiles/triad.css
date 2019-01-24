@@ -4,6 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    margin-bottom: 50px;
 }
 
 .column {
@@ -37,12 +38,13 @@
 opacity: 0.3;
 }
     #quoteWrapper {
-        height: 75px;
+        height: 85px;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
     #quoteZone {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: white;
         transform: translateY(30%);
     }

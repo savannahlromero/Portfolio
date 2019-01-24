@@ -1,4 +1,11 @@
-#navbar {
+.navbar {
 background-color: #2C2F33;
 text-decoration-color: #ffffff;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.navbar-fixed-top{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
